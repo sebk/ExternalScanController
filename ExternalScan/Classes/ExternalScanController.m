@@ -31,7 +31,7 @@
         _hiddenTextField.hidden = YES;
         [holder addSubview:_hiddenTextField];
         
-        [_hiddenTextField becomeFirstResponder];
+        //[_hiddenTextField becomeFirstResponder];
         
         [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardDidDisappear:) name:UIKeyboardDidHideNotification object:nil];
         
@@ -41,10 +41,14 @@
     return self;
 }
 
--(void)keyboardDidDisappear:(NSNotification*)notification {
+-(void)becomeFirstResponder {
     if (![_hiddenTextField isFirstResponder]) {
         [_hiddenTextField becomeFirstResponder];
     }
+}
+
+-(void)keyboardDidDisappear:(NSNotification*)notification {
+    [self becomeFirstResponder];
 }
 
 

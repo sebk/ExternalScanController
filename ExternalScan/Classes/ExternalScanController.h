@@ -21,4 +21,6 @@
 
 -(id)initWithParentView:(UIView*)holder;
 
+-(void)becomeFirstResponder;
+
 @end

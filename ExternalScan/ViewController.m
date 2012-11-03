@@ -35,6 +35,7 @@
     ExternalScanController *exController = [[ExternalScanController alloc]initWithParentView:self.view];
     exController.delegate = self;
     self.scanController = exController;
+    [exController becomeFirstResponder];
 }
 
 
