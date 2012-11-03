@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96427C3D1645B8550067EFD8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96427C3C1645B8550067EFD8 /* UIKit.framework */; };
+		96427C3F1645B8550067EFD8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96427C3E1645B8550067EFD8 /* Foundation.framework */; };
+		96427C411645B8550067EFD8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96427C401645B8550067EFD8 /* CoreGraphics.framework */; };
+		96427C471645B8550067EFD8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 96427C451645B8550067EFD8 /* InfoPlist.strings */; };
+		96427C491645B8550067EFD8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96427C481645B8550067EFD8 /* main.m */; };
+		96427C4D1645B8550067EFD8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96427C4C1645B8550067EFD8 /* AppDelegate.m */; };
+		96427C4F1645B8550067EFD8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 96427C4E1645B8550067EFD8 /* Default.png */; };
+		96427C511645B8550067EFD8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96427C501645B8550067EFD8 /* Default@2x.png */; };
+		96427C531645B8550067EFD8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96427C521645B8550067EFD8 /* Default-568h@2x.png */; };
+		96427C561645B8550067EFD8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96427C551645B8550067EFD8 /* ViewController.m */; };
+		96427C591645B8550067EFD8 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96427C571645B8550067EFD8 /* ViewController.xib */; };
+		96427C641645B8A50067EFD8 /* ExternalScanController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96427C631645B8A50067EFD8 /* ExternalScanController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		96427C381645B8550067EFD8 /* ExternalScan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExternalScan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96427C3C1645B8550067EFD8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		96427C3E1645B8550067EFD8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		96427C401645B8550067EFD8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		96427C441645B8550067EFD8 /* ExternalScan-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExternalScan-Info.plist"; sourceTree = "<group>"; };
+		96427C461645B8550067EFD8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		96427C481645B8550067EFD8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		96427C4A1645B8550067EFD8 /* ExternalScan-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ExternalScan-Prefix.pch"; sourceTree = "<group>"; };
+		96427C4B1645B8550067EFD8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		96427C4C1645B8550067EFD8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		96427C4E1645B8550067EFD8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		96427C501645B8550067EFD8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		96427C521645B8550067EFD8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		96427C541645B8550067EFD8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		96427C551645B8550067EFD8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		96427C581645B8550067EFD8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		96427C621645B8A50067EFD8 /* ExternalScanController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExternalScanController.h; sourceTree = "<group>"; };
+		96427C631645B8A50067EFD8 /* ExternalScanController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExternalScanController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96427C351645B8550067EFD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96427C3D1645B8550067EFD8 /* UIKit.framework in Frameworks */,
+				96427C3F1645B8550067EFD8 /* Foundation.framework in Frameworks */,
+				96427C411645B8550067EFD8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96427C2D1645B8550067EFD8 = {
+			isa = PBXGroup;
+			children = (
+				96427C421645B8550067EFD8 /* ExternalScan */,
+				96427C3B1645B8550067EFD8 /* Frameworks */,
+				96427C391645B8550067EFD8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96427C391645B8550067EFD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96427C381645B8550067EFD8 /* ExternalScan.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96427C3B1645B8550067EFD8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96427C3C1645B8550067EFD8 /* UIKit.framework */,
+				96427C3E1645B8550067EFD8 /* Foundation.framework */,
+				96427C401645B8550067EFD8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96427C421645B8550067EFD8 /* ExternalScan */ = {
+			isa = PBXGroup;
+			children = (
+				96427C611645B8A50067EFD8 /* Classes */,
+				96427C4B1645B8550067EFD8 /* AppDelegate.h */,
+				96427C4C1645B8550067EFD8 /* AppDelegate.m */,
+				96427C541645B8550067EFD8 /* ViewController.h */,
+				96427C551645B8550067EFD8 /* ViewController.m */,
+				96427C571645B8550067EFD8 /* ViewController.xib */,
+				96427C431645B8550067EFD8 /* Supporting Files */,
+			);
+			path = ExternalScan;
+			sourceTree = "<group>";
+		};
+		96427C431645B8550067EFD8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				96427C441645B8550067EFD8 /* ExternalScan-Info.plist */,
+				96427C451645B8550067EFD8 /* InfoPlist.strings */,
+				96427C481645B8550067EFD8 /* main.m */,
+				96427C4A1645B8550067EFD8 /* ExternalScan-Prefix.pch */,
+				96427C4E1645B8550067EFD8 /* Default.png */,
+				96427C501645B8550067EFD8 /* Default@2x.png */,
+				96427C521645B8550067EFD8 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		96427C611645B8A50067EFD8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				96427C621645B8A50067EFD8 /* ExternalScanController.h */,
+				96427C631645B8A50067EFD8 /* ExternalScanController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96427C371645B8550067EFD8 /* ExternalScan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96427C5C1645B8550067EFD8 /* Build configuration list for PBXNativeTarget "ExternalScan" */;
+			buildPhases = (
+				96427C341645B8550067EFD8 /* Sources */,
+				96427C351645B8550067EFD8 /* Frameworks */,
+				96427C361645B8550067EFD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExternalScan;
+			productName = ExternalScan;
+			productReference = 96427C381645B8550067EFD8 /* ExternalScan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96427C2F1645B8550067EFD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Gobas;
+			};
+			buildConfigurationList = 96427C321645B8550067EFD8 /* Build configuration list for PBXProject "ExternalScan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 96427C2D1645B8550067EFD8;
+			productRefGroup = 96427C391645B8550067EFD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96427C371645B8550067EFD8 /* ExternalScan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96427C361645B8550067EFD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96427C471645B8550067EFD8 /* InfoPlist.strings in Resources */,
+				96427C4F1645B8550067EFD8 /* Default.png in Resources */,
+				96427C511645B8550067EFD8 /* Default@2x.png in Resources */,
+				96427C531645B8550067EFD8 /* Default-568h@2x.png in Resources */,
+				96427C591645B8550067EFD8 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96427C341645B8550067EFD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96427C491645B8550067EFD8 /* main.m in Sources */,
+				96427C4D1645B8550067EFD8 /* AppDelegate.m in Sources */,
+				96427C561645B8550067EFD8 /* ViewController.m in Sources */,
+				96427C641645B8A50067EFD8 /* ExternalScanController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		96427C451645B8550067EFD8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96427C461645B8550067EFD8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		96427C571645B8550067EFD8 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96427C581645B8550067EFD8 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96427C5A1645B8550067EFD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		96427C5B1645B8550067EFD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96427C5D1645B8550067EFD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sebastian Kruschwitz (756H674XWG)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExternalScan/ExternalScan-Prefix.pch";
+				INFOPLIST_FILE = "ExternalScan/ExternalScan-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "5958E603-B44F-43C5-8AED-75E4F4BB91DE";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		96427C5E1645B8550067EFD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sebastian Kruschwitz (756H674XWG)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExternalScan/ExternalScan-Prefix.pch";
+				INFOPLIST_FILE = "ExternalScan/ExternalScan-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "5958E603-B44F-43C5-8AED-75E4F4BB91DE";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96427C321645B8550067EFD8 /* Build configuration list for PBXProject "ExternalScan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96427C5A1645B8550067EFD8 /* Debug */,
+				96427C5B1645B8550067EFD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96427C5C1645B8550067EFD8 /* Build configuration list for PBXNativeTarget "ExternalScan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96427C5D1645B8550067EFD8 /* Debug */,
+				96427C5E1645B8550067EFD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96427C2F1645B8550067EFD8 /* Project object */;
+}
