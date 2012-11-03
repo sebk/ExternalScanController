@@ -40,6 +40,7 @@
 		96427C581645B8550067EFD8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		96427C621645B8A50067EFD8 /* ExternalScanController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExternalScanController.h; sourceTree = "<group>"; };
 		96427C631645B8A50067EFD8 /* ExternalScanController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExternalScanController.m; sourceTree = "<group>"; };
+		96E2A2EF1645C94D00D2E518 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; name = README.md; path = ../../aiinformatics/MIS/MIS/ViewController/Scan/ExternalScanController/README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +60,7 @@
 		96427C2D1645B8550067EFD8 = {
 			isa = PBXGroup;
 			children = (
+				96E2A2EF1645C94D00D2E518 /* README.md */,
 				96427C421645B8550067EFD8 /* ExternalScan */,
 				96427C3B1645B8550067EFD8 /* Frameworks */,
 				96427C391645B8550067EFD8 /* Products */,
@@ -314,6 +316,7 @@
 				96427C5E1645B8550067EFD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
