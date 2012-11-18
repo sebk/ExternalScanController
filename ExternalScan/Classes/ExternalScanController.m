@@ -42,7 +42,7 @@
 }
 
 -(void)becomeFirstResponder {
-    if (![_hiddenTextField isFirstResponder]) {
+    if (_hiddenTextField && ![_hiddenTextField isFirstResponder]) {
         [_hiddenTextField becomeFirstResponder];
     }
 }
