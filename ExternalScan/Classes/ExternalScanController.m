@@ -41,9 +41,20 @@
     return self;
 }
 
+-(void)removeExternalSupport {
+    [_hiddenTextField removeFromSuperview];
+    _hiddenTextField = nil;
+}
+
 -(void)becomeFirstResponder {
     if (_hiddenTextField && ![_hiddenTextField isFirstResponder]) {
         [_hiddenTextField becomeFirstResponder];
+    }
+}
+
+-(void)resignFirstResponder {
+    if (_hiddenTextField && [_hiddenTextField isFirstResponder]) {
+        [_hiddenTextField resignFirstResponder];
     }
 }
 

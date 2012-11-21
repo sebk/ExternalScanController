@@ -23,4 +23,8 @@
 
 -(void)becomeFirstResponder;
 
+-(void)resignFirstResponder;
+
+-(void)removeExternalSupport;
+
 @end
