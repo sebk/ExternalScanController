@@ -29,6 +29,7 @@
         _hiddenTextField.delegate = self;
         [_hiddenTextField setInputView:[[UIView alloc]init]];
         _hiddenTextField.hidden = YES;
+        _hiddenTextField.clearsOnBeginEditing = NO;
         [holder addSubview:_hiddenTextField];
         
         //[_hiddenTextField becomeFirstResponder];
