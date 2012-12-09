@@ -15,7 +15,23 @@
 {
     [super viewDidLoad];
 
-	[self addExternalScanSupport];
+}
+
+-(void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    
+    [self addExternalScanSupport];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(addExternalScanSupport) name:UIApplicationDidBecomeActiveNotification object:nil];
+}
+
+-(void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
+    
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:UIApplicationDidBecomeActiveNotification object:nil];
+    
+    [_scanController removeExternalSupport];
+    _scanController.delegate = nil;
+    self.scanController = nil;
 }
 
 - (void)didReceiveMemoryWarning
@@ -29,13 +45,15 @@
 }
 
 -(void)addExternalScanSupport {
+    [_scanController removeExternalSupport];
+    
     self.scanController.delegate = nil;
     self.scanController = nil;
     
     ExternalScanController *exController = [[ExternalScanController alloc]initWithParentView:self.view];
     exController.delegate = self;
     self.scanController = exController;
-    [exController becomeFirstResponder];
+    [self.scanController becomeFirstResponder];
 }
 
 

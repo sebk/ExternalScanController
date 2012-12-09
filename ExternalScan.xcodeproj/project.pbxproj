@@ -272,13 +272,12 @@
 		96427C5D1645B8550067EFD8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sebastian Kruschwitz (756H674XWG)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ExternalScan/ExternalScan-Prefix.pch";
 				INFOPLIST_FILE = "ExternalScan/ExternalScan-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "5958E603-B44F-43C5-8AED-75E4F4BB91DE";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -286,13 +285,12 @@
 		96427C5E1645B8550067EFD8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sebastian Kruschwitz (756H674XWG)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ExternalScan/ExternalScan-Prefix.pch";
 				INFOPLIST_FILE = "ExternalScan/ExternalScan-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "5958E603-B44F-43C5-8AED-75E4F4BB91DE";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
