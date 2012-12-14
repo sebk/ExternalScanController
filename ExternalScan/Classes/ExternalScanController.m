@@ -30,10 +30,9 @@
         [_hiddenTextField setInputView:[[UIView alloc]init]];
         _hiddenTextField.hidden = YES;
         _hiddenTextField.clearsOnBeginEditing = NO;
+        _hiddenTextField.autocorrectionType = UITextAutocorrectionTypeNo;
         [holder addSubview:_hiddenTextField];
-        
-        //[_hiddenTextField becomeFirstResponder];
-        
+                
         [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardDidDisappear:) name:UIKeyboardDidHideNotification object:nil];
         
         _holderView = holder;
