@@ -27,12 +27,12 @@
     if (self = [super init]) {
         _hiddenTextField = [[UITextField alloc] initWithFrame:CGRectMake(10, 0, 1, 1)];
         _hiddenTextField.delegate = self;
+        _hiddenTextField.tag = 1000;
         [_hiddenTextField setInputView:[[UIView alloc]init]];
         _hiddenTextField.hidden = YES;
         _hiddenTextField.clearsOnBeginEditing = NO;
         _hiddenTextField.autocorrectionType = UITextAutocorrectionTypeNo;
         [holder addSubview:_hiddenTextField];
-                
         [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardDidDisappear:) name:UIKeyboardDidHideNotification object:nil];
         
         _holderView = holder;
