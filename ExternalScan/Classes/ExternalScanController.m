@@ -41,6 +41,10 @@
     return self;
 }
 
+-(BOOL)textFieldIsFirstResponder {
+    return [_hiddenTextField isFirstResponder];
+}
+
 -(void)removeExternalSupport {
     [_hiddenTextField removeFromSuperview];
     _hiddenTextField = nil;

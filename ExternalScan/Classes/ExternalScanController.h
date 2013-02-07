@@ -35,6 +35,8 @@
  */
 -(id)initWithParentView:(UIView*)holder;
 
+-(BOOL)textFieldIsFirstResponder;
+
 -(void)becomeFirstResponder;
 
 -(void)resignFirstResponder;
